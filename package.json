@@ -1,0 +1,24 @@
+{
+  "name": "nft-butler-clone",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"npm run electron-start\" \"npm run react-start\"",
+    "electron-start": "electron .",
+    "react-start": "BROWSER=none react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^28.1.4",
+    "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "electron-is-dev": "^3.0.1"
+  }
+}
