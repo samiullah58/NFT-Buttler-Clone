@@ -10,7 +10,7 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true,
         },
-    });
+    }); 
 
     // Load the index.html of the app.
     win.loadURL(
